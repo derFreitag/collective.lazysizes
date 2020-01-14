@@ -4,8 +4,18 @@ Changelog
 4.1.7 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Fix layer teardown when using the `FIXTURE` from `testing.py` on other packages.
+  [gforcada]
 
+- Allow releasing assets with zest.releaser.
+  [gforcada]
+
+- Minor adjustments on MANIFEST.in.
+  [gforcada]
+
+- Change placeholder image to be on a 3:2 scale, so that it matches der Freitag scale.
+  This should help avoiding grid reflows when the actual image is loaded.
+  [gforcada]
 
 4.1.6 (2019-03-12)
 ------------------
