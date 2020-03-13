@@ -1,7 +1,7 @@
 Changelog
 =========
 
-4.1.6.post2 (unreleased)
+4.1.6.post2 (2020-03-13)
 ------------------------
 
 - Nothing changed yet.
