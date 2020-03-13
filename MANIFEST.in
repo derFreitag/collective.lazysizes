@@ -2,3 +2,9 @@ global-exclude *.pyc
 graft docs
 graft src
 include *.rst
+include *.yml
+include buildout.cfg
+include .eslintrc
+exclude bootstrap.py
+exclude webpack
+recursive-exclude webpack *
