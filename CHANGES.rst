@@ -1,8 +1,8 @@
 Changelog
 =========
 
-4.1.7 (unreleased)
-------------------
+4.1.6.post4 (2021-04-21)
+------------------------
 
 - Fix layer teardown when using the `FIXTURE` from `testing.py` on other packages.
   [gforcada]
