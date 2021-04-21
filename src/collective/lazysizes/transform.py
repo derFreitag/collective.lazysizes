@@ -10,8 +10,8 @@ from zope.component import getUtility
 from zope.interface import implementer
 
 
-# grey rectangule, 16x16
-PLACEHOLDER = 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQAQMAAAAlPW0iAAAAA1BMVEXy8vJkA4prAAAAC0lEQVQI12MgEQAAADAAAWV61nwAAAAASUVORK5CYII='  # noqa: E501
+# grey 3x2 pixels image
+PLACEHOLDER = 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAIAAAASFvFNAAAACXBIWXMAAC4jAAAuIwF4pT92AAAAFUlEQVQI12NsaGhgYGBgYGBgYoABABs8AYQeHvPZAAAAAElFTkSuQmCC'  # noqa: E501
 
 # to avoid additional network round trips to render content above the fold
 # we only process elements inside the "content" element
